@@ -247,7 +247,7 @@ The output is now quite large, so here's just a part of it. You'll notice that t
 }
 ```
 
-This is officially called a {ref}`polymorphic query <docs:ref_eql_select_polymorphic>`, and is one of the best reasons to use abstract types in your schema.
+This is officially called a {ref}`polymorphic query <docs:ref_eql_select_polymorphic_queries>`, and is one of the best reasons to use abstract types in your schema.
 
 ## Using __type__ to get the type
 
