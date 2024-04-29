@@ -379,7 +379,7 @@ The parts that say `readonly := true` are parts of each type that are automatica
 
 The most interesting `readonly` part of an object is `__type__`, which is a link that every object type has to information about itself. We will learn more about this in Chapters 8 and 13, but if you are curious about what is inside then give it a try with the splat operator:
 
-```
+```edgeql
 select Person.__type__ {*};
 ```
 
