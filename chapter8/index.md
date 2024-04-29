@@ -360,7 +360,7 @@ So that can be pretty useful.
 
 But if you *really* want to understand the inner workings of EdgeDB, try the same query with the double splat operator:
 
-```
+```edgeql
 select PC.__type__ {**};
 ```
 
