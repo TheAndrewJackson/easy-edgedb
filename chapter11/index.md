@@ -458,7 +458,7 @@ group City { population } by .population;
 
 Instead, we can make up a grouping called `is_big` that we define as a population greater than 50,000:
 
-```
+```edgeql
 group City {name, population}
   using is_big := .population > 50000,
   by is_big;
